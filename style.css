@@ -59,24 +59,13 @@ img {
 
 .image-container {
   position: relative;
-  width: 50%;
-}
-
-.image-container img {
-  opacity: 1;
-  display: block;
-  width: 100%;
-  height: auto;
-  transition: .5s ease;
 }
 
 .imagesInfo {
-  transition: .5s ease;
   opacity: 0;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top: 0%;
+  left: 10%;
   color: #fd0463;
   font-size: 20px;
   padding: 5px;
@@ -86,9 +75,10 @@ img {
   opacity: 1;
 }
 
-.image-container:hover img{
+.image-container:hover img {
   opacity: 0.5;
 }
+
 /* image hover style  end*/
 
 @media (max-width: 767px) {

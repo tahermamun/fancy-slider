@@ -33,8 +33,8 @@ const showImages = (images) => {
     // inside the div innerHTML a new feature-3 for searching image hover
     div.innerHTML = ` <img class="img-fluid img-thumbnail" onclick=selectItem(event,"${image.webformatURL}") src="${image.webformatURL}" alt="${image.tags}">
     <div class="imagesInfo text">
-    <i class="fas fa-thumbs-up"></i>${image.likes}<br>
-    <i class=" far fa-star"></i>${image.favorites}<br>
+    <i class="fas fa-thumbs-up"></i>${image.likes}
+    <i class=" far fa-star"></i>${image.favorites}
     <i class=" far fa-comment"></i>${image.comments}
     </div>
     `;
